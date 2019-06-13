@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            body {
+                background-image: url("art-background-blank-951240.jpg");
+                background-repeat: repeat-y;
+            }
+        </style>
+        <style type="text/css">
+            .scroll {
+            display:block;
+            border: 1px solid green;
+            padding:5px;
+            margin-top:5px;
+            width:1000px;
+            height:200px;
+            overflow:auto;
+        </style>       
         <title>
             My first HTML coding page
         </title>
     </head>
     <body>
-        <center>
-            <h1><b>Coding HTML</b></h1>
-        </center>
+        <!--<center>-->
+            <h1 style="font-family: garamond; font-size: 60px; color: palevioletred;
+                       text-align: center"><b>Coding HTML</b></h1>
+        <!--</center>-->
         <hr />
-        <p>Let me show you how to use simple HTML commands.</p>
-        <ol>
+        <p style="letter-spacing: 5px">Let me show you how to use simple HTML commands.</p>
+        <ol style="list-style-type: lower-roman">
             <li>head</li>
             <li>title</li>
             <li>body</li>
@@ -32,11 +49,11 @@
         <h2>These are my steps.</h2>
         </center>
         <h2>Step 1</h2>
-        <p>I made a title on the browser tab.</p>
+        <p style="text-indent: 2cm; word-spacing: 5px">I made a title on the browser tab.</p>
         <h2>Step 2</h2>
-        <p>I created some paragraphs.</p>
+        <p style="background-color: greenyellow">I created some paragraphs.</p>
         <h2>Step 3</h2>
-        <p>I created the following table.</p>
+        <p style="border-width: 20px; border-style: double; padding-bottom: 30px">I created the following table.</p>
         <table border="1" cellpadding="5" cellspacing="5" width="300" height="20">
             <caption>Languages and my learning progress</caption>
             <th>Language</th>
@@ -59,16 +76,16 @@
             </tr>
         </table>
         <h2>Step 4</h2>
-        <p>I created a link to my most visited website.</p>
+        <p style="margin: 20px 100px">I created a link to my most visited website.</p>
         <a href="http://www.google.com" target="_blank">My favorite webpage</a>
         <h2>Step 5</h2>
-        <p>I tried to create a text box.</p>
+        <p style="max-width: 100px">I tried to create a text box.</p>
         <form action="URL" method="GET|POST">
             Enter your name: <input type="text" name="your_name" />
             <br />
         </form>
         <h2>Step 6</h2>
-        <p>I created something else.</p>
+        <p style="width: 50px; height: 60px; border: 1px dashed red;">I created something else.</p>
         <form action="URL" method="get|post">
             <textarea row="10" cols="60" name="feeling">
                 What do you feel about coding?
@@ -85,10 +102,10 @@
             <h2>Step 8</h2>
             <p>I created some radio buttons</p>
             <p>What is your <b>most</b> favorite language?</p>
-            <input type="radio" name="python" value="on">Python
-            <input type="radio" name="javascript" value="on">JavaScript
-            <input type="radio" name="html" value="on" checked>HTML
-            <input type="radio" name="css" value="on">CSS
+            <input type="radio" name="language" value="on">Python
+            <input type="radio" name="language" value="on">JavaScript
+            <input type="radio" name="language" value="on" checked>HTML
+            <input type="radio" name="langauge" value="on">CSS
             <h2>Step 9</h2>
             <p>I created a dropdown menu.</p>
             <select name="dropdown">
@@ -97,6 +114,20 @@
                 <option value="Coding" selected>Coding</option>
             </select>
         </form>
+        <h2>Step 10</h2>
+        <p>I made a scroll bar.</p>
+        <div class = "scroll">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin libero nunc consequat interdum varius sit amet mattis. Vulputate mi sit amet mauris commodo quis. At lectus urna duis convallis convallis tellus. Bibendum neque egestas congue quisque egestas diam in arcu. Imperdiet nulla malesuada pellentesque elit eget gravida. Sed cras ornare arcu dui vivamus arcu felis. Ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae. Hendrerit gravida rutrum quisque non tellus orci ac auctor augue. Auctor urna nunc id cursus metus aliquam. Malesuada pellentesque elit eget gravida cum sociis. Nisl vel pretium lectus quam id leo in vitae turpis. Leo duis ut diam quam nulla porttitor massa. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Tellus orci ac auctor augue mauris augue neque gravida.
+
+        Sed elementum tempus egestas sed sed risus pretium quam vulputate. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor. Scelerisque in dictum non consectetur a erat nam. Vel pharetra vel turpis nunc eget. Libero nunc consequat interdum varius sit amet mattis vulputate. Euismod quis viverra nibh cras pulvinar mattis nunc sed. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Convallis aenean et tortor at risus viverra adipiscing. Tempor nec feugiat nisl pretium fusce id velit ut. Pulvinar mattis nunc sed blandit. Mi eget mauris pharetra et ultrices neque. Malesuada bibendum arcu vitae elementum. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Ut pharetra sit amet aliquam id diam. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Commodo viverra maecenas accumsan lacus vel.
+
+        Diam quam nulla porttitor massa id neque. Sit amet purus gravida quis blandit turpis cursus in. Enim eu turpis egestas pretium aenean. Scelerisque purus semper eget duis at tellus at urna condimentum. Augue neque gravida in fermentum et sollicitudin. Id eu nisl nunc mi ipsum. Tellus orci ac auctor augue mauris augue. Feugiat vivamus at augue eget arcu dictum varius duis at. Eget nulla facilisi etiam dignissim diam. Enim facilisis gravida neque convallis a cras semper. Ultrices vitae auctor eu augue ut lectus arcu. Justo eget magna fermentum iaculis eu non diam phasellus vestibulum. Tempus egestas sed sed risus pretium quam vulputate dignissim. Et magnis dis parturient montes nascetur. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Volutpat maecenas volutpat blandit aliquam etiam erat velit.
+
+        Nullam eget felis eget nunc. Congue quisque egestas diam in arcu cursus. Purus non enim praesent elementum facilisis leo. Tincidunt augue interdum velit euismod in. Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor. Non arcu risus quis varius quam. Sit amet nisl suscipit adipiscing bibendum. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Etiam sit amet nisl purus in mollis. Turpis massa tincidunt dui ut ornare lectus. Aliquam sem et tortor consequat id porta. Pellentesque sit amet porttitor eget dolor morbi non. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Felis donec et odio pellentesque diam volutpat commodo. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Nibh venenatis cras sed felis eget. Pretium aenean pharetra magna ac. Feugiat nisl pretium fusce id velit. Auctor augue mauris augue neque. Hendrerit dolor magna eget est lorem.
+
+        Mi quis hendrerit dolor magna eget est lorem ipsum. Molestie nunc non blandit massa enim nec. Non tellus orci ac auctor augue mauris augue neque. Maecenas pharetra convallis posuere morbi leo urna molestie. Ultricies lacus sed turpis tincidunt id. Sit amet commodo nulla facilisi nullam vehicula ipsum. Turpis cursus in hac habitasse. Aliquet enim tortor at auctor urna nunc id cursus metus. Morbi tristique senectus et netus et malesuada fames ac turpis. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est. Cursus euismod quis viverra nibh cras pulvinar mattis nunc sed. Augue interdum velit euismod in pellentesque massa placerat duis ultricies. Pharetra sit amet aliquam id diam. Sed nisi lacus sed viverra. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar.
+        </div>
+      <br />
         <p>I have learned <i>a lot</i> when I created this webpage!</p>
     </body>
 </html>
